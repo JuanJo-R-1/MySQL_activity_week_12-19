@@ -69,3 +69,6 @@ SELECT e.nombre, COUNT(je.id_jugador) AS total_participantes
 FROM evento e
 JOIN jugador_evento je ON e.id_evento=je.id_evento
 GROUP BY e.nombre;
+
+--Debería colocar comentarios explicando?
+
